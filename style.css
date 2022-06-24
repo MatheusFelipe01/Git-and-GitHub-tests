@@ -13,3 +13,20 @@ main {
     margin: auto;
     padding: 10px;
 }
+h1 {
+    color: purple;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+h2 {
+    padding: 0px;
+    margin: 0px;
+    color: purple;
+    font-size: 15pt;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 0px
+    font-size: ;
+}

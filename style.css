@@ -4,6 +4,7 @@
 }
 
 body {
+    padding-top: 50px;
     background-color: blueviolet;
 }
 
@@ -14,6 +15,7 @@ main {
     padding: 10px;
 }
 h1 {
+    margin: 15px 0px 0px 0px;
     color: purple;
     font-size: 20pt;
     font-weight: bolder;
@@ -25,8 +27,40 @@ h2 {
     font-size: 15pt;
 }
 p {
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding: 0px
-    font-size: ;
+    
+}
+img#curso{
+    margin-bottom: 15px;
+    height: 70px;
+    width: 200px;
+}
+img#html{
+    padding: 0px 15px 0px 15px;
+    float: right;
+    height: 70px;
+    width: 70px;
+}
+img#js{
+    padding: 0px 15px 0px 15px;
+    float: right;
+    height: 60px;
+    width: 60px;
+}
+
+footer{
+    margin-top:20px;
+    text-align: center;
+    color: white;
+}
+a#footer{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a#footer:hover{
+    color: blue;
+    text-decoration: underline;
 }
